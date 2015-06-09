@@ -1,0 +1,13 @@
+[package]
+name = "b64enc"
+version = "0.1.0"
+authors = ["Andrew Dunstan <andrew@dunslane.net>"]
+
+[lib]
+name = "b64enc"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.1.8"
+rustc-serialize = "0.3.15"
+num = "0.1.25"

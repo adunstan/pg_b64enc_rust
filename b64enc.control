@@ -1,0 +1,5 @@
+# b64enc extension
+comment = 'b64enc'
+default_version = '0.0.1'
+module_pathname = '$libdir/b64enc'
+relocatable = true
