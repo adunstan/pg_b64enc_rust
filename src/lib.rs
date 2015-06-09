@@ -5,11 +5,11 @@ extern crate rustc_serialize;
 use std::ffi::{CString, CStr};
 use libc::{uint64_t};
 use num::FromPrimitive;
-use rustc_serialize::base64::{FromBase64, ToBase64, URL_SAFE, STANDARD};
+use rustc_serialize::base64::{FromBase64, ToBase64, URL_SAFE};
 use std::ascii::AsciiExt;
 //use std::ptr;
 //use std::str::from_utf8;
-use std::fmt;
+//use std::fmt;
 
 #[link(name="b64enc_modmagic", kind="static")]
 extern { 
